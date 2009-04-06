@@ -13,8 +13,8 @@ Install:
 -------
 
 Download all the files then:
-1. chmod 755 bin/tweettening
-2. sudo mv bin/recipe /usr/bin/tweettening
+- chmod 755 bin/tweettening
+- sudo mv bin/recipe /usr/bin/tweettening
 
 
 Usage:
