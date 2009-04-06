@@ -19,3 +19,8 @@ Usage:
 -----
 
 `tweettening file.mp3` will examine a MP3 file that includes ID3 tags. This also will show the artist's song.
+
+TODO:
+----
+
+Twitter integration.
