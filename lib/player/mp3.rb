@@ -1,7 +1,7 @@
 module Tweettening
   class Mp3
     def initialize(file)
-      @file = file
+      @file = file.to_s
     end
 
     def play
@@ -15,7 +15,7 @@ module Tweettening
     private
 
     def show
-      puts "tweettening ♫ #{@artist} - #{@song}"
+      #puts "tweettening ♫ #{@artist} - #{@song}"
       "tweettening ♫ #{@artist} - #{@song}"
     end
 
@@ -41,7 +41,7 @@ module Tweettening
       if has_tag?
         show
       else
-        abort "=> (#{@file}: ID3 tag was not found!"
+        abort "=> ID3 tag was not found!"
       end
     end
 

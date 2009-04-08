@@ -9,10 +9,11 @@ Inspired by:
 
 [Ruby Quiz ID3 Tags (#136)](http://www.rubyquiz.com/quiz136.html "Ruby Quiz ID3 Tags (#136)")
 
+
 Install:
 -------
 
-You need to download all the files. The First thing you do `chmod 755 bin/tweettening` then `sudo mv bin/recipe /usr/bin/tweettening`.
+The First thing you need to do is `chmod 755 bin/tweettening` then `sudo mv bin/recipe /usr/bin/tweettening`.
 
 
 Usage:
@@ -20,7 +21,9 @@ Usage:
 
 `tweettening file.mp3` will examine a MP3 file that includes ID3 tags. This also will show the artist's song.
 
+
 TODO:
 ----
 
-Twitter integration.
+- Twitter integration
+- More tests
